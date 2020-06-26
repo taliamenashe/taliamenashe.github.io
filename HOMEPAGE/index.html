@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+  	<meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>taliamenashehomepage</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+  </head>
+  <body>
+    <!-- DO NOT REMOVE ABOVE -->
+    <!-- start here -->
+
+  <h1 class="glitch">HELLO?</h1>
+<br>
+<div class="header">
+  what do you want?
+</div>
+<br>
+<div class="header">
+  <h3>click to</h3>
+  CONNECT
+</div>
+
+<div class="togglebuttons">
+  <br>
+    <div class="button">
+      <a href="file:///Users/taliamenashe/Documents/UNI/THIRD_YEAR/SEMESTER1/DPUB/CHANTS/chant(complete.html" style=text-decoration:none; >CHANTS</a>
+      <br>
+      <br>
+      <a href="file:///Users/taliamenashe/Documents/UNI/THIRD_YEAR/SEMESTER1/DPUB/WEIRDSIGNALS/Weird Signals.html"style=text-decoration:none;>WEIRD SIGNALS</a>
+      <br>
+      <br>
+      <a href="file:///Users/taliamenashe/Documents/UNI/THIRD_YEAR/SEMESTER1/DPUB/TEMPORAL/2009.html"style=text-decoration:none;>TEMPORAL</a>
+      <br>
+      <br>
+      <a href="https://docs.google.com/document/d/13tIMrbYhakx3DgxaeI-3Hz0mRF0pJiMyIonr1DI7UXU/edit?usp=sharing"style=text-decoration:none;>surfclub</a>
+      <br>
+      <br>
+      <a href="http://dpub.u-p.co/"style=text-decoration:none;>dPUB</a>
+    </div>
+
+<style media="screen">
+  a:hover{
+    box-shadow:0 0 10px black;
+  }
+</style>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- JS connect button drop box -->
+<script>
+var coll = document.getElementsByClassName("header");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
+
+<!-- end button dropbox JS -->
+
+
+    <!-- DO NOT REMOVE BELOW -->
+    <!-- end here -->
+  </body>
+</html>
