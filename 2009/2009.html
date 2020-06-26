@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>2009</title>
+    <link rel="stylesheet" href="2009.css">
+    <script src="2009.js" charset="utf-8"></script>
+    <script src="2009toggle.js" charset="utf-8"></script>
+    </head>
+  <body>
+    <h1>2009</h1>
+
+  <div class="header">
+    DIGITAL MUSIC +
+  </div>
+
+    <div class="toggle">
+      <br>
+        WELCOME TO THE WORLD OF DIGITAL MUSIC <br>
+        IN THE PRECENCE OF A TOTALLY DIGITAL WORLD &nbsp;&nbsp; INSTRUMENTS ARE PLAYED WITH CODE <br>
+        WHAT CAN YOU CREATE
+    </div>
+<!-- JS toggle - (in html file) -->
+    <script>
+    var coll = document.getElementsByClassName("header");
+    var i;
+
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+          content.style.display = "none";
+        } else {
+          content.style.display = "block";
+        }
+      });
+    }
+    </script>
+<!-- end js toggle -->
+
+    <br>
+    <br>
+
+    <!-- bass AUDIO -->
+    <audio src="AUDIO/boom.wav" data-key="65"></audio>
+    <audio src="AUDIO/hihat.wav" data-key="66"></audio>
+    <audio src="AUDIO/kick.wav" data-key="67"></audio>
+    <audio src="AUDIO/clap.wav" data-key="68"></audio>
+    <audio src="AUDIO/boom.wav" data-key="69"></audio>
+    <audio src="AUDIO/ride.wav" data-key="70"></audio>
+    <audio src="AUDIO/snare.wav" data-key="71"></audio>
+    <audio src="AUDIO/tom.wav" data-key="72"></audio>
+    <audio src="AUDIO/tink.wav" data-key="73"></audio>
+    <audio src="AUDIO/boom.wav" data-key="74"></audio>
+    <audio src="AUDIO/hihat.wav" data-key="75"></audio>
+    <audio src="AUDIO/kick.wav" data-key="76"></audio>
+    <audio src="AUDIO/clap.wav" data-key="77"></audio>
+    <audio src="AUDIO/boom.wav" data-key="90"></audio>
+    <audio src="AUDIO/ride.wav" data-key="79"></audio>
+    <audio src="AUDIO/snare.wav" data-key="80"></audio>
+    <audio src="AUDIO/tom.wav" data-key="81"></audio>
+    <audio src="AUDIO/tink.wav" data-key="82"></audio>
+    <audio src="AUDIO/boom.wav" data-key="83"></audio>
+    <audio src="AUDIO/hihat.wav" data-key="84"></audio>
+    <audio src="AUDIO/kick.wav" data-key="85"></audio>
+    <audio src="AUDIO/clap.wav" data-key="86"></audio>
+    <audio src="AUDIO/boom.wav" data-key="87"></audio>
+    <audio src="AUDIO/ride.wav" data-key="88"></audio>
+    <audio src="AUDIO/snare.wav" data-key="89"></audio>
+
+
+  <!-- soundwave -->
+
+    <div class="animation_demo">
+        <div class="wrapper">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+    </div>
+
+<!-- end soundwave -->
+
+
+<!-- Mastheads(glow square buttons(1-4), Sliders(5)) -->
+
+
+<!-- buttons - row1 -->
+    <div class="masthead1 container">
+      <div class="item w1of5">
+        <div class="button">
+          <div data-key="81" class="key"><kbd>Q</kbd><span class="sound"></span></div>
+        </div>
+      </div>
+      <div class="item w1of5">
+        <div class="button">
+          <div data-key="87" class="key"><kbd>W</kbd><span class="sound"></span></div>
+        </div>
+      </div>
+      <div class="item w1of5">
+        <div class="button">
+          <div data-key="69" class="key"><kbd>E</kbd><span class="sound"></span></div>
+        </div>
+      </div>
+      <div class="item w1of5">
+        <div class="button">
+          <div data-key="82" class="key"><kbd>R</kbd><span class="sound"></span></div>
+        </div>
+      </div>
+      <div class="item w1of5">
+        <div class="button">
+          <div data-key="84" class="key"><kbd>T</kbd><span class="sound"></span></div>
+        </div>
+      </div>
+      <div class="item w1">
+        <div class="slider">
+              <input type="range" min="50" max="100" value="50" class="slider" id="myRange">
+            </div>
+        </div>
+    </div>
+
+<br>
+
+<!-- buttons - row2 -->
+  <div class="masthead2 container">
+    <div class="item w1of5">
+      <div class="button">
+        <div data-key="89" class="key"><kbd>Y</kbd><span class="sound"></span></div>
+      </div>
+    </div>
+    <div class="item w1of5">
+      <div class="button">
+        <div data-key="86" class="key"><kbd>U</kbd><span class="sound"></span></div>
+      </div>
+    </div>
+    <div class="item w1of5">
+      <div class="button">
+        <div data-key="73" class="key"><kbd>I</kbd><span class="sound"></span></div>
+      </div>
+    </div>
+    <div class="item w1of5">
+      <div class="button">
+        <div data-key="79" class="key"><kbd>O</kbd><span class="sound"></span></div>
+      </div>
+    </div>
+    <div class="item w1of5">
+      <div class="button">
+        <div data-key="80" class="key"><kbd>P</kbd><span class="sound"></span></div>
+      </div>
+    </div>
+    <div class="item w1">
+      <div class="slider">
+            <input type="range" min="20" max="50" value="50" class="slider" id="myRange">
+          </div>
+      </div>
+  </div>
+
+<br>
+
+<!-- buttons - row3 -->
+    <div class="masthead3 container">
+      <div class="item w1of5">
+        <div class="button">
+          <div data-key="65" class="key"><kbd>A</kbd><span class="sound"></span></div>
+        </div>
+      </div>
+      <div class="item w1of5">
+        <div class="button">
+          <div data-key="83" class="key"><kbd>S</kbd><span class="sound"></span></div>
+        </div>
+      </div>
+      <div class="item w1of5">
+        <div class="button">
+          <div data-key="68" class="key"><kbd>D</kbd><span class="sound"></span></div>
+        </div>
+      </div>
+      <div class="item w1of5">
+        <div class="button">
+          <div data-key="70" class="key"><kbd>F</kbd><span class="sound"></span></div>
+        </div>
+      </div>
+      <div class="item w1of5">
+        <div class="button">
+          <div data-key="71" class="key"><kbd>G</kbd><span class="sound"></span></div>
+        </div>
+      </div>
+      <div class="item w1">
+        <div class="slider">
+              <input type="range" min="40" max="100" value="50" class="slider" id="myRange">
+            </div>
+        </div>
+    </div>
+
+<br>
+
+<!-- buttons - row4 -->
+      <div class="masthead4 container">
+        <div class="item w1of5">
+          <div class="button">
+            <div data-key="72" class="key"><kbd>H</kbd><span class="sound"></span></div>
+          </div>
+        </div>
+        <div class="item w1of5">
+          <div class="button">
+            <div data-key="74" class="key"><kbd>J</kbd><span class="sound"></span></div>
+          </div>
+        </div>
+        <div class="item w1of5">
+          <div class="button">
+            <div data-key="75" class="key"><kbd>K</kbd><span class="sound"></span></div>
+          </div>
+        </div>
+        <div class="item w1of5">
+          <div class="button">
+            <div data-key="76" class="key"><kbd>L</kbd><span class="sound"></span></div>
+          </div>
+        </div>
+        <div class="item w1of5">
+          <div class="button">
+            <div data-key="77" class="key"><kbd>M</kbd><span class="sound"></span></div>
+          </div>
+        </div>
+        <div class="item w1">
+          <div class="slider">
+                <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+              </div>
+        </div>
+      </div>
+
+<br>
+
+<!-- buttons - row5 -->
+      <div class="masthead1 container">
+        <div class="item w1of5">
+          <div class="button">
+            <div data-key="90" class="key"><kbd>Z</kbd><span class="sound"></span></div>
+          </div>
+        </div>
+        <div class="item w1of5">
+          <div class="button">
+            <div data-key="88" class="key"><kbd>X</kbd><span class="sound"></span></div>
+          </div>
+        </div>
+        <div class="item w1of5">
+          <div class="button">
+            <div data-key="67" class="key"><kbd>C</kbd><span class="sound"></span></div>
+          </div>
+        </div>
+        <div class="item w1of5">
+          <div class="button">
+            <div data-key="85" class="key"><kbd>V</kbd><span class="sound"></span></div>
+          </div>
+        </div>
+        <div class="item w1of5">
+          <div class="button">
+            <div data-key="66" class="key"><kbd>B</kbd><span class="sound"></span></div>
+          </div>
+        </div>
+        <div class="item w1">
+          <div class="slider">
+                <input type="range" min="50" max="100" value="50" class="slider" id="myRange">
+              </div>
+          </div>
+      </div>
+
+<br>
+
+<!-- frequency bars -->
+      <div class="masthead0 container">
+        <div class="item w1of15">
+          <div class="wave">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+          <div class="item w1of15">
+            <div class="wave">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+          <div class="item w1of15">
+            <div class="wave">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+          <div class="item w1of15">
+            <div class="wave">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+          <div class="item w1of15">
+            <div class="wave">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+          <div class="item w1of15">
+            <div class="wave">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+          <div class="item w1of15">
+            <div class="wave">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+          <div class="item w1of15">
+            <div class="wave">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+          <div class="item w1of15">
+            <div class="wave">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+          <div class="item w1of15">
+            <div class="wave">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+          <div class="item w1of15">
+            <div class="wave">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+          <div class="item w1of15">
+            <div class="wave">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+          <div class="item w1of15">
+            <div class="wave">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+          <div class="item w1of15">
+            <div class="wave">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+          <div class="item w1of15">
+            <div class="wave">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+          <div class="item w1of15">
+            <div class="wave">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+          <div class="item w1of15">
+            <div class="wave">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+          <div class="item w1of15">
+            <div class="wave">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+        </div>
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+
+    <!-- End Mastheads -->
+
+    </body>
+    </html>
