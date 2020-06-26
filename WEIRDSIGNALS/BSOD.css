@@ -1,0 +1,18 @@
+@font-face {
+  src: url(FONTS/VCR_OSD_MONO.ttf);
+  font-family: VCR;
+}
+body{
+background: #000080;
+color:white;
+font-family: VCR;
+font-size: 20px;
+}
+
+a{
+  color:  #000160;
+}
+
+h2{
+  left:50%;
+}
