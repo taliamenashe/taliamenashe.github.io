@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+  	<meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Game Settings</title>
+    <link rel="stylesheet" type="text/css" href="GameSettings.css">
+  </head>
+  <body>
+
+<body>
+
+<div class="mobile-container">
+
+<!-- Top Navigation Menu -->
+<div class="navigation">
+  <a href="file:///Users/taliamenashe/Documents/UNI/taliamenashe.github.io/DIS/Assignment3/HOME.html" class="home">HUMAN KERPLUNK</a>
+  <div id="Links">
+    <a href="file:///Users/taliamenashe/Documents/UNI/taliamenashe.github.io/DIS/Assignment3/GameSettings.html">Game Settings</a>
+    <a href="file:///Users/taliamenashe/Documents/UNI/taliamenashe.github.io/DIS/Assignment3/RandomGeneration.html">Random Generator</a>
+    <a href="file:///Users/taliamenashe/Documents/UNI/taliamenashe.github.io/DIS/Assignment3/TeamElimination.html">Team Elimination</a>
+  </div>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+
+<!-- End smartphone / tablet look -->
+</div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("Links");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
+
+<div class="container">
+<!-- main headings -->
+
+  <h1>Game Settings</h1>
+
+<h3>Select No. Teams</h3>
+
+<!-- Dropdown menus -->
+<div class="dropbox">
+<div align="center">
+
+  <div class="teamdropdown" style="width:500px;">
+    <select>
+      <option value="0">Select Team</option>
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+    </select>
+  </div>
+</div>
+
+</div>
+<br>
+
+<h3>Select Difficulty</h3>
+
+<div class="dropbox">
+<div align="center">
+  <div class="leveldropdown">
+    <select>
+      <option value="0">Select Level</option>
+      <option value="1">Easy</option>
+      <option value="2">Medium</option>
+      <option value="3">Hard</option>
+      <option value="4">Expert</option>
+    </select>
+  </div>
+</div>
+</div>
+
+<br>
+<!-- next buttons -->
+<div class="nextbutton">
+  <div align="center">
+  <a href="file:///Users/taliamenashe/Documents/UNI/taliamenashe.github.io/DIS/Assignment3/RandomGeneration.html">START</a>
+</div>
+</div>
+<br>
+
+    </body>
+  </html>
