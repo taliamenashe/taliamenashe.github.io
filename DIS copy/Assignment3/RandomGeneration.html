@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+  	<meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Random Generator</title>
+    <link rel="stylesheet" type="text/css" href="RandomGeneration.css">
+<script src="RandomGeneration.js">
+
+</script>
+  </head>
+  <body>
+
+    <div class="mobile-container">
+
+    <!-- Top Navigation Menu -->
+    <div class="navigation">
+      <a href="file:///Users/taliamenashe/Documents/UNI/taliamenashe.github.io/DIS/Assignment3/HOME.html" class="home">HUMAN KERPLUNK</a>
+      <div id="Links">
+        <a href="file:///Users/taliamenashe/Documents/UNI/taliamenashe.github.io/DIS/Assignment3/GameSettings.html">Game Settings</a>
+        <a href="file:///Users/taliamenashe/Documents/UNI/taliamenashe.github.io/DIS/Assignment3/RandomGeneration.html">Random Generator</a>
+        <a href="file:///Users/taliamenashe/Documents/UNI/taliamenashe.github.io/DIS/Assignment3/TeamElimination.html">Team Elimination</a>
+      </div>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+    </div>
+
+
+    <div class="container">
+    <!-- main headings -->
+
+  <h1>Random Generator</h1>
+
+  <!-- colour -->
+<br>
+<div align="center">
+  <g id="g2">COLOUR</>
+</div>
+
+<br><br>
+<div align="center">
+<button onClick="getRandomColor()">Shuffle Colour</button>
+</div>
+
+<br>
+<div align="center">
+<p id="one"></p>
+<button onclick="random()">Shuffle Stick No.</button>
+</div>
+<br>
+
+<!-- next buttons -->
+<div class="nextbutton">
+  <div align="center">
+  <a href="file:///Users/taliamenashe/Documents/UNI/taliamenashe.github.io/DIS/Assignment3/TeamElimination.html">Eliminate Team</a>
+</div>
+</div>
+<br>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("Links");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+
+function getRandomColor() {
+    var letters = '0123456789ABCDEF'.split('');
+    var color = '#';
+    for (var i = 0; i < 6; i++ ) {
+        color += letters[Math.floor(Math.random() * 16)];
+    }
+   document.getElementById("g2").style.color=color;
+}
+
+function random(){
+
+document.getElementById("one").innerHTML = Math.floor(Math.random() * 5);
+}
+
+</script>
+
+
+
+
+  </body>
+  </html>

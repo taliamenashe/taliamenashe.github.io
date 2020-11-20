@@ -1,0 +1,256 @@
+body{
+  background-color: #fae7b6;
+  font-family: verdana;
+}
+
+
+  nav{
+  background-color: #eba902;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-decoration: none;
+  font: verdana;
+  font-size: 30px;
+}
+b{
+  text-align: left;
+  padding-right:530px;
+  color:white;
+}
+a{
+  padding-left: 20px;
+  padding-right:10px;
+  padding-top: 10px;
+  text-decoration: none;
+  color:white;
+  font-family: verdana;
+}
+.topbar{
+  text-align:right;
+}
+
+h1{
+  text-align: center;
+  font-size: 50px;
+  text-decoration: underline;
+}
+
+h2{
+  text-align: center;
+  font-size: 30px;
+  color:black;
+  font-weight: lighter;
+}
+
+h3{
+  text-align: center;
+  font-size: 30px;
+  color:black;
+  font-weight: lighter;
+}
+
+
+.row {
+  width:100%;
+  padding-left: 24%;
+}
+
+.column {
+  float: left;
+  width: 10%;
+  padding:20px;
+}
+
+  .circleA{
+    height: 150px;
+    width: auto;
+    background-color:#fddac5;
+    border-radius: 50%;
+  }
+  .circleB{
+    height: 150px;
+    width: auto;
+    background-color:#eedace;
+    border-radius: 50%;
+  }
+  .circleC{
+    height: 150px;
+    width: auto;
+    background-color:#f9ccc6;
+    border-radius: 50%;
+  }
+  .circleD{
+    height: 150px;
+    width: auto;
+    background-color:#eec29c;
+    border-radius: 50%;
+  }
+
+  .circleE{
+    height: 150px;
+    width: auto;
+    background-color:#c2aed1;
+    border-radius: 50%;
+  }
+  .circleF{
+    height: 150px;
+    width: auto;
+    background-color:#131d84;
+    border-radius: 50%;
+  }
+  .circleG{
+    height: 150px;
+    width: auto;
+    background-color:#6c0918;
+    border-radius: 50%;
+  }
+  .circleH{
+    height: 150px;
+    width: auto;
+    background-color:#adafb4;
+    border-radius: 50%;
+  }
+  .circleI{
+    height: 150px;
+    width: auto;
+    background-color:#ee9a5d;
+    border-radius: 50%;
+  }
+  .circleJ{
+    height: 150px;
+    width: auto;
+    background-color:#dda87f;
+    border-radius: 50%;
+  }
+  .circleK{
+    height: 150px;
+    width: auto;
+    background-color:#ce9e75;
+    border-radius: 50%;
+  }
+  .circleL{
+    height: 150px;
+    width: auto;
+    background-color:#e28c4b;
+    border-radius: 50%;
+  }
+  .circleM{
+    height: 150px;
+    width: auto;
+    background-color:#9b0339;
+    border-radius: 50%;
+  }
+  .circleN{
+    height: 150px;
+    width: auto;
+    background-color:#291d86;
+    border-radius: 50%;
+  }
+  .circleO{
+    height: 150px;
+    width: auto;
+    background-color:#f05849;
+    border-radius: 50%;
+  }
+  .circleP{
+    height: 150px;
+    width: auto;
+    background-color:#9114b4;
+    border-radius: 50%;
+  }
+  .circleQ{
+    height: 150px;
+    width: auto;
+    background-color:#e28c4b;
+    border-radius: 50%;
+  }
+  .circleR{
+    height: 150px;
+    width: auto;
+    background-color:#a56c35;
+    border-radius: 50%;
+  }
+  .circleS{
+    height: 150px;
+    width: auto;
+    background-color:#8b715f;
+    border-radius: 50%;
+  }
+  .circleT{
+    height: 150px;
+    width: auto;
+    background-color:#8b715f;
+    border-radius: 50%;
+  }
+  .circleU{
+    height: 150px;
+    width: auto;
+    background-color:#d79b89;
+    border-radius: 50%;
+  }
+  .circleV{
+    height: 150px;
+    width: auto;
+    background-color:#7dadbb;
+    border-radius: 50%;
+  }
+  .circleW{
+    height: 150px;
+    width: auto;
+    background-color:#ffb046;
+    border-radius: 50%;
+  }
+  .circleX{
+    height: 150px;
+    width: auto;
+    background-color:#4d2e20;
+    border-radius: 50%;
+  }
+  .circleY{
+    height: 150px;
+    width: auto;
+    background-color:#814320;
+    border-radius: 50%;
+  }
+  .circleZ{
+    height: 150px;
+    width: auto;
+    background-color:#57341d;
+    border-radius: 50%;
+  }
+  .circleAA{
+    height: 150px;
+    width: auto;
+    background-color:#4b1001;
+    border-radius: 50%;
+  }
+  .circleBB{
+    height: 150px;
+    width: auto;
+    background-color:#483223;
+    border-radius: 50%;
+  }
+  .circleCC{
+    height: 150px;
+    width: auto;
+    background-color:#15058a;
+    border-radius: 50%;
+  }
+  .circleDD{
+    height: 150px;
+    width: auto;
+    background-color:#9a1b2e;
+    border-radius: 50%;
+  }
+  .circleEE{
+    height: 150px;
+    width: auto;
+    background-color:#2a0766;
+    border-radius: 50%;
+  }
+  .circleFF{
+    height: 150px;
+    width: auto;
+    background-color:#252b38;
+    border-radius: 50%;
+  }

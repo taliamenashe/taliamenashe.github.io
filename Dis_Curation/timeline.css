@@ -1,0 +1,56 @@
+body {
+  font-family: verdana;
+  background-color: #eee1f7;
+}
+
+nav{
+  background-color: purple ;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-decoration: none;
+  font: verdana;
+  font-size: 30px;
+}
+b{
+  text-align: left;
+  padding-right:530px;
+  color:white;
+}
+a{
+  padding-left: 20px;
+  padding-right:10px;
+  padding-top: 10px;
+  text-decoration: none;
+  color:white;
+  font-family: verdana;
+}
+.topbar{
+  text-align:right;
+}
+
+main {
+  padding-top:20px;
+  min-width: 300px;
+  max-width: 500px;
+  margin: auto;
+}
+
+h1{
+  font-size: 20px;
+  text-align: right;
+
+}
+
+p {
+  font-size: 1em;
+  line-height: 1.75em;
+  border-top: 3px solid;
+  border-image: linear-gradient(to right, #743ad5 0%, #d53a9d 100%);
+  border-image-slice: 1;
+  border-width: 3px;
+  margin: 0;
+  padding: 40px;
+  counter-increment:
+  position: relative;
+  color: $black;
+  text-align: justify;

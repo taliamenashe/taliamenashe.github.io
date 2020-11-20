@@ -1,0 +1,20 @@
+body{
+  background-color: orange;
+}
+
+
+.logo{
+  padding-top:80px;
+}
+
+h1{
+  font-family:verdana;
+  text-size: 300px;
+  text-align: center;
+}
+
+.nextbutton{
+  font-family: verdana;
+  font-size: 25px;
+  text-decoration: none;
+}
